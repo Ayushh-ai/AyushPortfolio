@@ -1,5 +1,5 @@
 import AccordionItem from "./AccordionItem";
-import { focusAreas } from "../data/focusAreas";
+import { focusAreas } from "../Data/FocusAreas";
 
 function FocusAreas() {
   return (
