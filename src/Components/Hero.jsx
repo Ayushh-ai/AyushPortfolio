@@ -1,4 +1,5 @@
 import { siteData } from "../Data/Site";
+import portraitImage from "../assets/Projects/ayush-portrait.jpg";
 
 function Hero() {
   return (
@@ -48,7 +49,7 @@ function Hero() {
             {/* <div className="portrait-glow" /> */}
 
             <img
-              src="/src/assets/Projects/ayush-portrait.jpg"
+              src={portraitImage}
               alt="Portrait of Ayush Bisne"
               className="portrait"
             />
